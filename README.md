@@ -1,3 +1,5 @@
+![Logo](src/logo.png)
+
 **ESQUEMA DE PROBLEMÁTICA Y SOLUCIONES PARA INVERSIONES EMPRESARIALES** 📈💼🏨🍽️
 
 **PROBLEMÁTICA:**
@@ -5,6 +7,9 @@
 Para que un empresario esté interesado en invertir en negocios, restaurantes, hoteles o servicios, tiene que tomar decisiones informadas basadas en datos y análisis significativos. El empresario quiere conocer la imagen que tienen los usuarios de diferentes locales y la percepción del servicio que ofrecen. Además, desea entender cómo las opiniones y reseñas en plataformas como Yelp y Google Maps, y otras plataformas confiables, pueden influir en el rendimiento y la utilidad del negocio. El empresario también está interesado en identificar tendencias y oportunidades de inversión en comercios en expansión, para mejorar las estrategias de marketing y tomar decisiones inteligentes en su cartera de inversiones.
 
 **SOLUCIÓN PROPUESTA:**
+
+![Espina de pescado](src/espina_pescado.jpeg)
+
 
 Para abordar esta problemática, se propone un enfoque integral que incluya la recopilación, depuración y disponibilización de datos de diferentes fuentes, la realización de análisis significativos y la implementación de machine learning para el beneficio del empresario.
 
