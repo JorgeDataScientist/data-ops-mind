@@ -211,5 +211,5 @@ def mostrar_reviews():
 
 
 # Ejecutar la función principal
-if _name_ == '__main__':
+if __name__ == '__main__':
     main()
