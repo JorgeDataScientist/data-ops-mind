@@ -94,6 +94,9 @@ if st.sidebar.button('Buscar empresas cercanas'):
 
     # Mostrar los registros cercanos en Streamlit
     st.write(f'Registros cercanos dentro de {distancia_maxima} km de tus coordenadas:')
-    st.write(registros_cercanos)
+    
+  # Agregar una columna de checkboxes al DataFrame
     registros_cercanos['Seleccionar'] = registros_cercanos.apply(lambda row: st.checkbox("", key=row['identificador']), axis=1)
+
+    # Mostrar el DataFrame con la columna de checkboxes
     st.write(registros_cercanos)
