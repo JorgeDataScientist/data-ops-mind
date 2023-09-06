@@ -4,6 +4,7 @@ from google.oauth2 import service_account
 from google.cloud import bigquery
 import folium
 from streamlit_folium import folium_static
+from geopy.distance import geodesic
 
 # Configura las credenciales desde las secrets de Streamlit
 credentials = service_account.Credentials.from_service_account_info(st.secrets["gcp_service_account"])
@@ -65,7 +66,6 @@ df = pd.read_gbq(query, credentials=credentials, project_id="data-ops-mind")
 
 
 #ESTA PARTE BUSCA LAS MAS CERCANAS
-from geopy.distance import geodesic
 # Coordenadas de referencia (tus coordenadas)
 mis_coordenadas = (my_latitude, my_longitude)
 # Parámetro para la distancia
