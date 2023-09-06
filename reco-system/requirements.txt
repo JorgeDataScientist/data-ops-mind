@@ -4,3 +4,4 @@ pandas
 pandas-gbq
 google-cloud-bigquery
 geopy
+json
