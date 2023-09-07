@@ -5,7 +5,6 @@ from google.cloud import bigquery
 import folium
 from streamlit_folium import folium_static
 from geopy.distance import geodesic
-import os
 
 # Configura las credenciales desde las secrets de Streamlit
 credentials = service_account.Credentials.from_service_account_info(st.secrets["gcp_service_account"])
@@ -29,9 +28,9 @@ def main():
         mostrar_reviews()
 
 def entrada_datos():
-    image_path = os.path.join(os.getcwd(), "principal.jpg")
+    image_path = "principal.jpg"
     st.image(image=image_path, caption="Principal", use_column_width=True)
-    image_path1 = os.path.join(os.getcwd(), "logo.png")
+    image_path1 = "logo.png"
     st.sidebar.image(image=image_path1, caption="logo", use_column_width=True)
 
     st.sidebar.header('Data Entry')
