@@ -109,6 +109,9 @@ def buscar_empresas():
     distancia_maxima = st.session_state.distancia_max
     mis_coordenadas = (my_latitude, my_longitude)
 
+    image_path1 = "reco-system/logo.png"
+    st.sidebar.image(image=image_path1, use_column_width=True)
+
     # Sidebar con información
     st.sidebar.title("🗺️ Map of Nearest Businesses")
 
@@ -178,6 +181,8 @@ def mostrar_reviews():
 
     identificadores_str = ', '.join([f"'{id}'" for id in identificador])
 
+    image_path1 = "reco-system/logo.png"
+    st.sidebar.image(image=image_path1, use_column_width=True)
     # Sidebar title
     st.sidebar.header("Business Reviews")
 
