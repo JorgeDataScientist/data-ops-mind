@@ -28,9 +28,9 @@ def main():
         mostrar_reviews()
 
 def entrada_datos():
-    image_path = "principal.jpg"
+    image_path = "reco-system/principal.jpg"
     st.image(image=image_path, caption="Principal", use_column_width=True)
-    image_path1 = "logo.png"
+    image_path1 = "reco-system/logo.png"
     st.sidebar.image(image=image_path1, caption="logo", use_column_width=True)
 
     st.sidebar.header('Data Entry')
