@@ -36,3 +36,5 @@ Con esta solución integral, el empresario podrá tomar decisiones de inversión
 
 **DICCIONARIO DE DATOS:**
 ![Diccionario](src/diccionario.jpeg)
+
+✌🏼
